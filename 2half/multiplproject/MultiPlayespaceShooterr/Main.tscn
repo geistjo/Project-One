@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Ship.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Lobby.tscn" type="PackedScene" id=2]
+
+[node name="Main" type="Node"]
+
+[node name="Ship" parent="." index="0" instance=ExtResource( 1 )]
+
+gravity_scale = 0.0
+
+[node name="Lobby" parent="." index="1" instance=ExtResource( 2 )]
+
+
